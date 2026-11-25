@@ -148,7 +148,10 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 1322923884097450075, guid: 43609bc6906765c47b84a87795942c4a, type: 2}
+  - {fileID: -6930340488158848561, guid: f3eb32fab131a2b47a1613cd32c5037c, type: 2}
+  - {fileID: 11400000, guid: 70401a8d4dcf15b499ef5a9ff7111e5e, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -170,13 +173,13 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.GuanYao.MRStrategyRTS
+    Android: com.GuanYao.TowerDefenseWar
   buildNumber:
     Standalone: 0
     VisionOS: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
+  overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 29
   AndroidTargetSdkVersion: 0

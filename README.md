@@ -12,6 +12,14 @@
 >
 > [查看完整《游戏玩法与空间交互》PDF](PPT/%E5%A1%94%E9%98%B2%E6%88%98%E4%BA%89_%E6%B8%B8%E6%88%8F%E7%8E%A9%E6%B3%95%E4%B8%8E%E7%A9%BA%E9%97%B4%E4%BA%A4%E4%BA%92.pdf)
 
+## APK 下载
+
+**[⬇ 下载塔防战争 APK（1125 构建 · 约 686 MB）](https://media.githubusercontent.com/media/2625580908/TowerDefenseWar/main/Build/Tower%20Defense%20Game_1125.apk)**
+
+安装包：`Tower Defense Game_1125.apk`，用于 PICO 设备体验。
+
+[查看安装包文件页](Build/Tower%20Defense%20Game_1125.apk)
+
 ## 视频展示
 
 **塔防战争 · MR 实机演示**｜1 分 39 秒 · 1080p · 约 49 MB

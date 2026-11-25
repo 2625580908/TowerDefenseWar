@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ef7e7d4ba1b634fa5ddf6afefe77d0, type: 3}
+  m_Name: FrostCrystalTower
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.TowerDefinition
+  towerId: tower_frostcrystal
+  displayName: "霜晶寒流塔"
+  roleName: "减速控场"
+  featureSummary: "减速35% · 持续2秒"
+  accentColor: {r: 0.6, g: 0.92, b: 1, a: 1}
+  prefab: {fileID: 1236233138218678652, guid: 7a50abbff19451ba94886ae1022cf32a, type: 3}
+  buildCost: 150
+  bulletPrefab: {fileID: 6516581116645970531, guid: 86b35fc89ba48a37e13ce52eae7ec609, type: 3}
+  damage: 8
+  bulletSpeed: 0.85
+  attackRange: 0.18
+  attackInterval: 0.9
+  damageMode: 2
+  targetPriority: 0
+  splashRadius: 0.055
+  splashDamageMultiplier: 0.5
+  maximumSplashTargets: 6
+  slowFraction: 0.35
+  slowDuration: 2
+  chainTargetCount: 3
+  chainJumpRadius: 0.065
+  chainDamageMultiplier: 0.65
+  poisonTickDamage: 3
+  poisonTickInterval: 0.5
+  poisonDuration: 2
+  shootSound: {fileID: 8300000, guid: 8d43f6e5d5c5bccbe763b4c27d8f3dea, type: 3}
+  shootSoundVolume: 0.5
+  impactSound: {fileID: 8300000, guid: 676fc34c78b6114a49f59777c93200ad, type: 3}
+  impactSoundVolume: 0.4

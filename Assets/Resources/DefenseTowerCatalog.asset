@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d1080a75af4c30b52aa47c24233ac2, type: 3}
+  m_Name: DefenseTowerCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::DefenseTowerCatalog
+  towers:
+  - {fileID: 11400000, guid: cc7f0b079e1c458fa73aa34dac598ad1, type: 2}
+  - {fileID: 11400000, guid: 0b51b2f8c92e4c598d45d81cdd9f0d1d, type: 2}
+  - {fileID: 11400000, guid: e6076ef5180e44b7972e744cab6b4246, type: 2}
+  - {fileID: 11400000, guid: 2e2682100b54240768e6c9280ee4188e, type: 2}
+  - {fileID: 11400000, guid: 4391d18c2bc7ccffa1283a9432a8bf70, type: 2}
+  - {fileID: 11400000, guid: 2c98a6c6229314c5440b9b13bc729014, type: 2}
+  labelFont: {fileID: 11400000, guid: d9ff275e6a43577429744484243617db, type: 2}

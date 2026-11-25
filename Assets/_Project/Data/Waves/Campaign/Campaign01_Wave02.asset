@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82edffd56031324c96e3c822214d35e, type: 3}
+  m_Name: Campaign01_Wave02
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.WaveDefinition
+  displayName: "\u8349\u7538\u521d\u54e8 \u00b7 \u7b2c2\u6ce2"
+  startDelay: 12
+  monsterSpawns:
+  - monster: {fileID: 11400000, guid: ce048d8fbfc7a44a24ad794272f77146, type: 2}
+    count: 10
+    spawnInterval: 2.3

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0619a8aafd955a4c80043a39b3d4811, type: 3}
+  m_Name: EliteOrc
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.MonsterDefinition
+  monsterId: campaign_EliteOrc
+  displayName: "\u517d\u4eba\u7edf\u9886"
+  prefab: {fileID: 996544599620684068, guid: 8cd6842ad31c1f34aa411697f0c2e67d, type: 3}
+  maxHealth: 400
+  baseDamage: 15
+  killGoldReward: 32
+  moveSpeed: 0.035
+  animationWalkSpeed: 0.05
+  groundHeightOffset: 0
+  walkableTileType: 2

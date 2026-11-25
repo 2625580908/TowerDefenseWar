@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ef7e7d4ba1b634fa5ddf6afefe77d0, type: 3}
+  m_Name: Tower01
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.TowerDefinition
+  towerId: tower_basic
+  displayName: "\u57FA\u7840\u9632\u5FA1\u5854"
+  prefab: {fileID: 2448581579014052865, guid: f1adfd05ebbf2d044b4fc7b5d637e082, type: 3}
+  buildCost: 100
+  bulletPrefab: {fileID: 2207411677312783345, guid: 3b6257750519de04db3d306f92af388d, type: 3}
+  damage: 10
+  bulletSpeed: 0.6
+  attackRange: 0.15
+  attackInterval: 0.8

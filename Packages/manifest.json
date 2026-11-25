@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.ai.navigation": "2.0.16",
+    "com.unity.cloud.gltfast": "6.20.0",
+    "com.unity.feature.development": "1.0.2",
+    "com.unity.inputsystem": "1.20.0",
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "com.unity.xr.hands": "1.9.0",
+    "com.unity.xr.interaction.toolkit": "3.3.2",
+    "com.unity.xr.openxr": "1.16.1",
+    "com.unity.xr.picoxr": "file:com.unity.xr.picoxr",
+    "com.unity.modules.adaptiveperformance": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0",
+    "com.unity.modules.vectorgraphics": "1.0.0"
+  }
+}

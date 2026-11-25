@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: effe3810a6219b540a9c6cf09fae4ccd, type: 3}
+  m_Name: LevelDefinition04
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.LevelDefinition
+  levelId: level_04
+  displayName: "\u7b2c4\u5173 \u00b7 \u75be\u98ce\u6298\u7ebf"
+  startingGold: 460
+  baseHealth: 100
+  terrainPrefab: {fileID: 2975989793024974162, guid: e5a8a1dde47d77e528b669119c0b6270, type: 3}
+  monsterSpawnLocalOffset: {x: 0, y: 0, z: 0}
+  monsterSpawnWorldOffset: {x: 0, y: 0.015, z: 0}
+  waves:
+  - {fileID: 11400000, guid: 2cd612ca6d62713581d3114081972525, type: 2}
+  - {fileID: 11400000, guid: 0e2dc9d58b96dcabce02820e89dc215f, type: 2}
+  - {fileID: 11400000, guid: ba9bdb13647243f6d449e9fb887eb6e6, type: 2}
+  - {fileID: 11400000, guid: 481fa65cf044e6c32d0e56248e6a035a, type: 2}

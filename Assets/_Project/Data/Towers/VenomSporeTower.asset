@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ef7e7d4ba1b634fa5ddf6afefe77d0, type: 3}
+  m_Name: VenomSporeTower
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.TowerDefinition
+  towerId: tower_venomspore
+  displayName: "蚀毒孢子塔"
+  roleName: "持续侵蚀"
+  featureSummary: "毒伤3/0.5秒 · 持续2秒"
+  accentColor: {r: 0.6, g: 0.94, b: 0.25, a: 1}
+  prefab: {fileID: 6479830488152403283, guid: 1749182cd607448d6f2e6bb84f7049a4, type: 3}
+  buildCost: 170
+  bulletPrefab: {fileID: 8732291490579475964, guid: acc9e9b78f245b8f16949e1e86c3bc77, type: 3}
+  damage: 10
+  bulletSpeed: 0.75
+  attackRange: 0.16
+  attackInterval: 0.8
+  damageMode: 4
+  targetPriority: 2
+  splashRadius: 0.055
+  splashDamageMultiplier: 0.5
+  maximumSplashTargets: 6
+  slowFraction: 0.35
+  slowDuration: 2
+  chainTargetCount: 3
+  chainJumpRadius: 0.065
+  chainDamageMultiplier: 0.65
+  poisonTickDamage: 3
+  poisonTickInterval: 0.5
+  poisonDuration: 2
+  shootSound: {fileID: 8300000, guid: 8104b8763ab8227e07a832b0bf2ffa22, type: 3}
+  shootSoundVolume: 0.46
+  impactSound: {fileID: 8300000, guid: 1f5c1ee03b541673e49e723880293a19, type: 3}
+  impactSoundVolume: 0.35

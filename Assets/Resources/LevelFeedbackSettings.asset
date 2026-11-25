@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51a9b809c4e14bd7d8ce6a415cb32, type: 3}
+  m_Name: LevelFeedbackSettings
+  m_EditorClassIdentifier: Assembly-CSharp::LevelFeedbackSettings
+  victoryParticles: {fileID: 9083958654178397829, guid: 27de1497b617ca843bff6eead26125b2, type: 3}
+  defeatParticles: {fileID: 3632742141285353964, guid: d42d253e90337cf42b76958e913b551f, type: 3}
+  particleDuration: 4.5
+  effectDistance: 0.8
+  effectHeightOffset: 0.12
+  victorySound: {fileID: 8300000, guid: 8b313f60f91348238dc36f497386f46a, type: 3}
+  defeatSound: {fileID: 8300000, guid: 10418f19c83540b4aa11ca378fc5101f, type: 3}
+  damageSound: {fileID: 8300000, guid: 8a395140f63347fba817589528271a59, type: 3}
+  resultVolume: 0.65
+  damageVolume: 0.45
+  damageOverlayMaterial: {fileID: 2100000, guid: db35329db2734a049ba01e055dcbdbf1, type: 2}
+  damageFlashDuration: 0.45
+  damageFlashOpacity: 0.28

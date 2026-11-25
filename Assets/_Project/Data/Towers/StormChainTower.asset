@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ef7e7d4ba1b634fa5ddf6afefe77d0, type: 3}
+  m_Name: StormChainTower
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.TowerDefinition
+  towerId: tower_stormchain
+  displayName: "雷链电弧塔"
+  roleName: "连锁群攻"
+  featureSummary: "最多3目标 · 每跳65%"
+  accentColor: {r: 0.7, g: 0.45, b: 1, a: 1}
+  prefab: {fileID: 1236233138218678652, guid: 7fe4f2e7bf62108c49f881498c6c7fa9, type: 3}
+  buildCost: 240
+  bulletPrefab: {fileID: 6516581116645970531, guid: e7f04499785d540e92efe079e4c7f26e, type: 3}
+  damage: 24
+  bulletSpeed: 1.1
+  attackRange: 0.19
+  attackInterval: 1.05
+  damageMode: 3
+  targetPriority: 0
+  splashRadius: 0.055
+  splashDamageMultiplier: 0.5
+  maximumSplashTargets: 6
+  slowFraction: 0.35
+  slowDuration: 2
+  chainTargetCount: 3
+  chainJumpRadius: 0.065
+  chainDamageMultiplier: 0.65
+  poisonTickDamage: 3
+  poisonTickInterval: 0.5
+  poisonDuration: 2
+  shootSound: {fileID: 8300000, guid: 61682bf100981127725010f6f79444fb, type: 3}
+  shootSoundVolume: 0.48
+  impactSound: {fileID: 8300000, guid: 45ba9ef34a44db87a3513568d19d8257, type: 3}
+  impactSoundVolume: 0.42

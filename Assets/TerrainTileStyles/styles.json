@@ -1,0 +1,110 @@
+[
+  {
+    "id": "Grass_Meadow",
+    "name": "草地·翠绿三叶",
+    "category": "草地",
+    "usage": "开阔草坪、出生区域；细草与三叶草，少量白花",
+    "source": "001",
+    "density": 1800,
+    "seed": 71
+  },
+  {
+    "id": "Grass_Wild",
+    "name": "草地·野草丰茂",
+    "category": "草地",
+    "usage": "林地边界、未开垦区域；深浅草簇与高密度杂草",
+    "source": "001",
+    "density": 2700,
+    "seed": 72
+  },
+  {
+    "id": "Grass_Autumn",
+    "name": "草地·秋叶暖坡",
+    "category": "草地",
+    "usage": "秋季区域、树林周边；金棕草皮与橙褐落叶",
+    "source": "001",
+    "density": 1350,
+    "seed": 73
+  },
+  {
+    "id": "Grass_ForestMoss",
+    "name": "草地·幽林苔绒",
+    "category": "草地",
+    "usage": "湿润林地、岩石阴面；冷绿苔斑和蕨叶",
+    "source": "001",
+    "density": 2250,
+    "seed": 74
+  },
+  {
+    "id": "Grass_Dry",
+    "name": "草地·旱地疏草",
+    "category": "草地",
+    "usage": "峡谷过渡、干燥高地；裸土斑与稀疏枯草",
+    "source": "001",
+    "density": 800,
+    "seed": 75
+  },
+  {
+    "id": "Grass_Heather",
+    "name": "草地·花甸微紫",
+    "category": "草地",
+    "usage": "特色区域、温和魔法主题；细草与少量紫白野花",
+    "source": "001",
+    "density": 1600,
+    "seed": 76
+  },
+  {
+    "id": "Land_Clay",
+    "name": "陆地·暖陶碎土",
+    "category": "陆地",
+    "usage": "乡间道路、营地；暖陶铺面、碎土与磨损划痕",
+    "source": "002",
+    "density": 1450,
+    "seed": 81
+  },
+  {
+    "id": "Land_Slate",
+    "name": "陆地·冷灰板岩",
+    "category": "陆地",
+    "usage": "山地隘口、城堡外缘；蓝灰板岩、细裂隙",
+    "source": "002",
+    "density": 1900,
+    "seed": 82
+  },
+  {
+    "id": "Land_Sand",
+    "name": "陆地·砂砾浅滩",
+    "category": "陆地",
+    "usage": "沙地道路、河岸过渡；浅砂铺面与细砂砾",
+    "source": "002",
+    "density": 3000,
+    "seed": 83
+  },
+  {
+    "id": "Land_Ruins",
+    "name": "陆地·遗迹苔砖",
+    "category": "陆地",
+    "usage": "古城遗迹、潮湿通道；旧砖磨蚀、苔斑和叶屑",
+    "source": "002",
+    "density": 1300,
+    "seed": 84
+  },
+  {
+    "id": "Land_Granite",
+    "name": "陆地·花岗碎石",
+    "category": "陆地",
+    "usage": "矿区道路、防御工事；灰褐花岗岩、高密碎石肌理",
+    "source": "002",
+    "density": 3100,
+    "seed": 85
+  },
+  {
+    "id": "Land_Ash",
+    "name": "陆地·灰烬荒原",
+    "category": "陆地",
+    "usage": "熔岩区外围、焦土路径；炭灰颗粒与少量锈红矿点",
+    "source": "002",
+    "density": 2100,
+    "seed": 86
+  }
+]

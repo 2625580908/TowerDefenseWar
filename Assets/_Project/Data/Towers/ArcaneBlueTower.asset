@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ef7e7d4ba1b634fa5ddf6afefe77d0, type: 3}
+  m_Name: ArcaneBlueTower
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.TowerDefinition
+  towerId: tower_arcaneblue
+  displayName: "蓝晶远射塔"
+  roleName: "远程重击"
+  featureSummary: "优先高生命 · 单体重击"
+  accentColor: {r: 0.42, g: 0.83, b: 1, a: 1}
+  prefab: {fileID: 1236233138218678652, guid: 9134234ea33402b49ae0f08c2d36d2f6, type: 3}
+  buildCost: 180
+  bulletPrefab: {fileID: 6516581116645970531, guid: e9a1d9d0a710cb74183bf937bf212b0e, type: 3}
+  damage: 42
+  bulletSpeed: 1.2
+  attackRange: 0.26
+  attackInterval: 1.35
+  damageMode: 0
+  targetPriority: 1
+  splashRadius: 0.055
+  splashDamageMultiplier: 0.5
+  maximumSplashTargets: 6
+  slowFraction: 0.35
+  slowDuration: 2
+  chainTargetCount: 3
+  chainJumpRadius: 0.065
+  chainDamageMultiplier: 0.65
+  poisonTickDamage: 3
+  poisonTickInterval: 0.5
+  poisonDuration: 2
+  shootSound: {fileID: 8300000, guid: 509b5ec6f0c1bb6747aa8bc63d15da41, type: 3}
+  shootSoundVolume: 0.55
+  impactSound: {fileID: 8300000, guid: 65b9c3ee8a91c92bea38063fdfbb2277, type: 3}
+  impactSoundVolume: 0.42

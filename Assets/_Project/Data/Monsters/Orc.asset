@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0619a8aafd955a4c80043a39b3d4811, type: 3}
+  m_Name: Orc
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.MonsterDefinition
+  monsterId: monster_Orc
+  displayName: "\u517D\u4EBA"
+  prefab: {fileID: 996544599620684068, guid: 8cd6842ad31c1f34aa411697f0c2e67d, type: 3}
+  maxHealth: 300
+  baseDamage: 10
+  killGoldReward: 10
+  moveSpeed: 0.025
+  animationWalkSpeed: 0.05
+  walkableTileType: 2

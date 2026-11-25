@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82edffd56031324c96e3c822214d35e, type: 3}
+  m_Name: New Wave 1
+  m_EditorClassIdentifier: Assembly-CSharp::MRStrategyRTS.Config.WaveDefinition
+  displayName: "\u6CE2\u6B21"
+  startDelay: 2
+  monsterSpawns:
+  - monster: {fileID: 11400000, guid: 6bf72d26e0bc59e4f9bb62233d184509, type: 2}
+    count: 5
+    spawnInterval: 1
+  - monster: {fileID: 11400000, guid: 593a863bf44b95248b744518ff88836c, type: 2}
+    count: 5
+    spawnInterval: 1
+  - monster: {fileID: 11400000, guid: 2b3df8fe1ef9e4443aab6de3e154d9be, type: 2}
+    count: 5
+    spawnInterval: 1

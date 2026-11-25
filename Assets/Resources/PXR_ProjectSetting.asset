@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PXR_ProjectSetting
   m_EditorClassIdentifier: Unity.XR.PICO::Unity.XR.PXR.PXR_ProjectSetting
   useContentProtect: 0
-  handTracking: 0
+  handTracking: 1
   adaptiveHand: 0
   highFrequencyHand: 0
   openMRC: 1
@@ -29,7 +29,7 @@ MonoBehaviour:
   bodyTracking: 0
   adaptiveResolution: 0
   stageMode: 0
-  videoSeeThrough: 0
+  videoSeeThrough: 1
   spatialAnchor: 0
   sceneCapture: 0
   sharedAnchor: 0
@@ -45,9 +45,9 @@ MonoBehaviour:
   handTrackingSupportType: 0
   arFoundation: 0
   mrSafeguard: 0
-  enableRecommendMSAA: 0
+  enableRecommendMSAA: 1
   recommendSubsamping: 0
-  recommendMSAA: 0
+  recommendMSAA: 1
   validationFFREnabled: 0
   validationETFREnabled: 0
   portalInited: 1

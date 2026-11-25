@@ -1,0 +1,25 @@
+app:
+  id: "7711994394445873188"
+  name: "塔防战争"
+  slogan: "把塔防战场放进你的空间，用双手布局防御，迎战一波波敌人。"
+  description: "【PICO Space Program 参赛作品  玩家在敌人行进路径旁建造炮塔，合理搭配不同塔的攻击范围与技能，阻止一波波敌人抵达终点。资源有限，需在布局，考验规划与应变，节奏轻松又富有挑战。】"
+  tags: [ "策略解谜" ]
+  category: "game"
+  icon: "Build/VibeLab/icon.png"
+  landscape: "Build/VibeLab/landscape.png"
+  detail_images:
+    - "Build/VibeLab/detail-spatial.png"
+    - "Build/VibeLab/detail-build.png"
+    - "Build/VibeLab/detail-campaign.png"
+  videos: []
+version:
+  name: "1.0.0"
+  notes: "塔防战争首次发布。"
+build:
+  repo_url: "https://github.com/2625580908/TowerDefenseWar"
+  repo_visibility: "public"
+  tech_stack: "unity"
+  ai_tool: "Trae CLI"
+  ai_model: "GPT-6"
+  features: [ "hand_tracking", "mixed_reality" ]
+  teammates: []

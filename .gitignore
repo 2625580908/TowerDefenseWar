@@ -1,0 +1,20 @@
+# Ignore root files except Unity project directories and README resources.
+/*
+!/Assets/
+!/Packages/
+!/ProjectSettings/
+!/UserSettings/
+!/Build/
+!/.gitignore
+!/README.md
+
+# Repository homepage images.
+!/docs/
+/docs/*
+!/docs/readme/
+
+# Original presentation linked from the README.
+!/PPT/
+/PPT/*
+!/PPT/塔防战争_游戏玩法与空间交互.pdf
+.vibelab/
